@@ -1,0 +1,21 @@
+
+---
+
+### .gitignore
+
+```gitignore
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# macOS
+.DS_Store
+
+# EnergyPlus outputs
+results/
+eplusout*
+*.err
+*.eso
+*.mtr
+*.sqlite
